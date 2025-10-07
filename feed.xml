@@ -11,6 +11,7 @@
     <pubDate>Mon, 06 Oct 2025 12:00:00 +0500</pubDate>
     <atom:link href="https://matqueee.github.io/my-rss-feed/feed.xml" rel="self" type="application/rss+xml"/>
 
+    <!-- 📰 Post 1 -->
     <item>
       <title>First Post</title>
       <link>https://matqueee.github.io/my-rss-feed/first-post.html</link>
@@ -19,6 +20,30 @@
       <description><![CDATA[This is my first RSS post.]]></description>
       <content:encoded><![CDATA[
         <p>Hello! This is an example post content.</p>
+      ]]></content:encoded>
+    </item>
+
+    <!-- 📰 Post 2 -->
+    <item>
+      <title>Second Post</title>
+      <link>https://matqueee.github.io/my-rss-feed/second-post.html</link>
+      <guid isPermaLink="false">second-post-20251006</guid>
+      <pubDate>Mon, 06 Oct 2025 13:00:00 +0500</pubDate>
+      <description><![CDATA[This is my second post in the feed.]]></description>
+      <content:encoded><![CDATA[
+        <p>This is a more detailed example post.</p>
+      ]]></content:encoded>
+    </item>
+
+    <!-- 📰 Post 3 -->
+    <item>
+      <title>Third Post</title>
+      <link>https://matqueee.github.io/my-rss-feed/third-post.html</link>
+      <guid isPermaLink="false">third-post-20251006</guid>
+      <pubDate>Mon, 06 Oct 2025 15:00:00 +0500</pubDate>
+      <description><![CDATA[This is my third post about learning RSS + React!]]></description>
+      <content:encoded><![CDATA[
+        <p>We are now building a feed reader using React and XML parsing.</p>
       ]]></content:encoded>
     </item>
 
